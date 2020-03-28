@@ -1,0 +1,25 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi","Hey", "How are you", "Is anyone there?", "Hello"],
+         "responses": ["Hello, what's your plan today? ", "Hey, how can I assist you?", "Hi there, how can I help?"],
+         "context": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting:)", "Have a nice day", "Bye! Come back again soon.","Bye!You were awesome:)"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful","cool"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "category",
+         "patterns": ["I want to know about restaurants", "show restaurants near me", "nearby restaurants","show me nearby restaurants" ],
+         "responses":["Cool where do you want to go","Awesome which type restaurant are you looking?","Awesome!Tell me which type of restaurants do you want to visit?"]
+        },
+        {"tag": "restaurants",
+         "patterns": ["Delivery", "pubs and bars", "nightlife","Dine-out","cafes","take-away","Breakfast","Dinner","Lunch","club and lounges","pocket friendly delivery","daily menus","catching-up" ],
+         "responses": ["Great choice! here are top five restaurants near you", "I am Jealous,Here are some awesome places near you","Awesome,Here are some great places near you"]
+       }
+
+   ]
+}
